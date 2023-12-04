@@ -17,3 +17,5 @@ soup = BeautifulSoup(response.text, 'html.parser')
 with open('output.txt','w',encoding='utf_8')as file:
     file.write(soup.prettify())
     # file.write(str(sample_element))
+
+# peach_Tech代表のゆうせいさんとfirst commitしました。
